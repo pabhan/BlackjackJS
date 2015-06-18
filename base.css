@@ -1,0 +1,278 @@
+#deckArea
+{
+	position: relative;
+	display:inline-block;
+}
+.card
+{
+	vertical-align: top;
+	border: 5px solid #22B14C;
+	width: 110px;
+	height: 200px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:20px;
+	background-color: white;
+	color: black;
+	text-align:center;
+	font-size: 30px;
+	position: relative;
+}
+
+.cardInactive
+{
+	vertical-align: top;
+	border: 5px solid #E6F5FF;
+	width: 110px;
+	height: 200px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:20px;
+	background-color: white;
+	color: #E6F5FF;
+	text-align:center;
+	font-size: 30px;
+	position: relative;
+}
+
+.deck
+{
+	position: relative;
+	border: 5px solid #22B14E;
+	width: 110px;
+	height: 200px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:20px;
+	background-color: #22B14C;
+	font-size: 10px;
+}
+
+.emptyDeck
+{
+	position: relative;
+	border: 5px dashed #22B14E;
+	width: 110px;
+	height: 200px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	border-radius:20px;
+	background-color: white;
+	color: white;
+	font-size: 10px;
+}
+
+
+.utilityButton
+{
+	vertical-align: top;
+	border: 5px solid #2ADA5E;
+	width: 100px;
+	height: 50px;
+	padding: 30px 5px 5px 30px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:40px;
+	border-radius:50px;
+	background-color: white;
+	font-size: 30px;
+	color: #2ADA5E;
+	cursor: pointer;
+	position:relative;
+}
+
+.utilityButtonOff
+{
+	vertical-align: top;
+	border: 5px solid #E6F5FF;
+	width: 100px;
+	height: 50px;
+	padding: 30px 5px 5px 30px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:40px;
+	border-radius:50px;
+	background-color: white;
+	font-size: 30px;
+	color: #E6F5FF;
+	position:relative;
+}
+
+.scoreAreaPos
+{
+	vertical-align: top;
+	border: 5px solid #2ADA5E;
+	width: 110px;
+	height: 110px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	border-radius:20px;
+	background-color: #2ADA5E;
+	font-size: 30px;
+	position: relative;
+	color: white;
+}
+
+.scoreAreaNeg
+{
+	vertical-align: top;
+	border: 5px solid #FF0414;
+	width: 110px;
+	height: 110px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	border-radius:20px;
+	background-color: #FF0414;
+	font-size: 30px;
+	position: relative;
+	color:white;
+	text-align:center;
+}
+
+.resultAreaPos
+{
+	vertical-align: top;
+	border: 5px solid #2ADA5E;
+	width: 110px;
+	height: 110px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	border-radius:20px;
+	background-color: white;
+	font-size: 30px;
+	position: relative;
+	color: #2ADA5E;
+	text-align:center;
+}
+.resultAreaNeg
+{
+	vertical-align: top;
+	border: 5px solid #FF0414;
+	width: 110px;
+	height: 110px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	border-radius:20px;
+	background-color: white;
+	font-size: 30px;
+	position: relative;
+	color: #FF0414;
+	text-align:center;
+}
+.resultArea
+{
+	vertical-align: top;
+	border: 5px solid #E6F5FF;
+	width: 110px;
+	height: 110px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	border-radius:20px;
+	background-color: white;
+	font-size: 30px;
+	position: relative;
+	color: #E6F5FF;
+	text-align:center;
+}
+
+.fishActive
+{
+	vertical-align: top;
+	border: 5px solid #2ADA5E;
+	width: 50px;
+	height: 50px;
+	padding: 30px 5px 5px 30px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5%;
+	border-radius:50px;
+	background-color: white;
+	font-size: 30px;
+	color: #2ADA5E;
+	position:relative;
+	text-align:center;
+}
+
+.fishInactive
+{
+	vertical-align: top;
+	border: 5px solid #E6F5FF;
+	width: 50px;
+	height: 50px;
+	padding: 30px 5px 5px 30px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5%;
+	border-radius:50px;
+	background-color: white;
+	font-size: 30px;
+	color: #E6F5FF;
+	position:relative;
+	text-align:center;
+}
+
+.fishBetted
+{
+	vertical-align: top;
+	border: 5px solid #B8B800;
+	width: 50px;
+	height: 50px;
+	padding: 30px 5px 5px 30px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5%;
+	border-radius:50px;
+	background-color: white;
+	font-size: 30px;
+	color: #B8B800;
+	position:relative;
+	text-align:center;
+}
+
+.fishWon
+{
+	vertical-align: top;
+	border: 5px solid #B8B800;
+	width: 50px;
+	height: 50px;
+	padding: 30px 5px 5px 30px;
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5%;
+	border-radius:50px;
+	background-color: #B8B800;
+	font-size: 30px;
+	color: white;
+	position:relative;
+	text-align:center;
+}
